@@ -1,6 +1,7 @@
 <?php
 function addfive($num){
     $num +=5;
+    echo "$num";
 }
 $x=10;
 addfive($x);
